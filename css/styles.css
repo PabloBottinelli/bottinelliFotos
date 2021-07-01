@@ -1,0 +1,357 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+/* HEADER DEL INDEX */
+#headerIndex{
+    background-image: url("../media/banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    align-items: flex-start;
+}
+#headerIndex .flex a{
+    margin-top: 30px;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.medio{
+    margin-top: 220px;
+}
+.medio h1{
+    font-size: 5em;
+    font-family: 'Bebas Neue', cursive;
+    color:  rgb(232 178 26);
+    text-align: center;
+}
+.medio h2{
+    font-size: 3.5em;
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.navbar{
+    display: none;
+    background-color: transparent !important;
+}
+.navbar-toggler{
+    border: none;
+}
+.navbar-toggler i{
+    color: white !important;
+    font-size: 30px;
+}
+.navbar-brand{
+    margin-top: 0 !important;
+}
+.nav-link{
+    color: white !important;
+}
+@media only screen and (max-width: 720px){
+    .medio{
+        margin-top: 200px;
+    }
+    .medio h1{
+        font-size: 4em;
+    }
+    .medio h2{
+        font-size: 3em;
+    }
+}
+@media only screen and (max-width: 540px){
+    .medio{
+        margin-top: 100px;
+    }
+    .medio h1{
+        font-size: 3em;
+    }
+    .medio h2{
+        font-size: 2em;
+    }
+}
+/* HEADER GENERAL */
+#headerGeneral{
+    background: #0f0c29; 
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29); 
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); 
+    height: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+header img{
+    width: 70px;
+    transition: all 500ms ease;
+}
+header img:hover{
+    transform: scale(1.1);
+}
+header a, .navbar a{
+    text-decoration: none;
+    font-size: 1.7em;
+    font-weight: 600;
+    color: white;
+    transition: all 500ms ease;
+}
+.flex a:hover, #headerGeneral a:hover{
+    transform: scale(1.1);
+    text-decoration: none;
+    color: white;
+}
+.headerBootsGeneral{
+    background: #0f0c29; 
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29); 
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); 
+}
+@media only screen and (max-width: 990px){
+    .navbar{
+        display: flex;
+    }
+    .flex, #headerGeneral{
+        display: none;
+    }
+}
+.nav-link{
+    margin-top: 10px;
+    padding: 0;
+    width: 150px;
+    transition: all 500ms ease;
+}
+.nav-link:hover{
+    transform: scale(1.1);
+}
+@media only screen and (max-width: 540px){
+    header a, .navbar a{
+        font-size: 1.2em;
+    }
+}
+/* SOBRE MI */
+.sobreMi{
+    margin: 30px;
+}
+.contenido{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 210px;
+}
+.sobreMi h2{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 3em;
+    color: #000000;
+    font-family: 'Anton', sans-serif;
+}
+.sobreMi img{
+    width: 280px;
+    margin-right: 80px;
+}
+.sobreMi p{
+    font-size: 1.5em;
+    text-align: justify;
+    width: 50%;
+}
+@media only screen and (max-width: 1400px){
+    .sobreMi h2{
+        font-size: 2.5em;
+    }
+    .sobreMi img{
+        width: 300px;
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+    .sobreMi p{
+        font-size: 1.3em;
+        width: 90%;
+    }
+    .contenido{
+        margin-bottom: 60px;
+    }
+}
+@media only screen and (max-width: 540px){
+    .sobreMi h2{
+        font-size: 2.5em;
+    }
+    .sobreMi img{
+        width: 200px;
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+    .sobreMi p{
+        font-size: 1.3em;
+        width: 90%;
+    }
+    .contenido{
+        margin-bottom: 60px;
+    }
+}
+/*PRECIOS*/
+#precios{
+    margin: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#precios h1{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 3em;
+    font-family: 'Anton', sans-serif;
+    color: #000000;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.card{
+    transition: all 500ms ease;
+    border: 1px solid rgba(0, 0, 0, 0.171);
+    margin-bottom: 50px;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+/*GALERIA*/
+.galeria{
+    margin: auto;
+    width: 80%;
+    margin-bottom: 60px;
+}
+.galeria h1{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-size: 3em;
+    font-family: 'Anton', sans-serif;
+}
+.imagenes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-row-gap: 20px;
+    justify-items: center;
+}
+.imagenes img{
+    width: 350px;
+    transition: all 400ms ease;
+}
+.imagenes img:hover{
+    transform: scale(1.4);
+}
+@media only screen and (max-width: 1400px){
+    .galeria{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 1200px){
+    .imagenes img{
+        width: 80%;
+    }
+}
+/*CONTACTO*/
+#contacto h1{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-size: 3em;
+    font-family: 'Anton', sans-serif;
+}
+#contacto form{
+    margin: auto;
+    margin-top: 70px;
+    width: 40%;
+    font-size: 1em;
+    text-align: center;
+    margin-bottom: 130px;
+}
+#contacto input[type="text"],input[type="email"], textarea{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #0f0c295b;
+    margin-bottom: 30px;
+    resize: none;
+}
+#contacto input[type="text"]:focus,input[type="email"]:focus, textarea:focus{
+    border: 2px solid #0f0c2983;
+    border-radius: 10px;
+    outline: none;
+}
+#contacto textarea{
+    height: 100px;
+}
+#contacto input[type="submit"]{
+    background: #0f0c29; 
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29); 
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); 
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+    font-size: 1.5em;
+    cursor: pointer;
+    transition: all 500ms ease;
+}
+#contacto input[type="submit"]:hover{
+    transform: scale(1.1);
+}
+@media only screen and (max-width: 1200px){
+    #contacto form{
+        width: 80%;
+    }
+    #contacto h1{
+        margin: auto;
+        width: 90%;
+        font-size: 2.5em;
+        margin-top: 30px;
+    }
+}
+/*FOOTER*/
+footer{
+    background: #0f0c29;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    height: 150px;
+    text-align: center;
+    color: white;
+    font-size: 1em;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+footer a{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+}
+footer i{
+    transition: all 500ms ease;
+}
+footer a i:hover{
+    transform: scale(1.2);
+    color: white;
+}
+@media only screen and (max-width: 540px){
+    footer h2{
+        font-size: 1.5em;
+    }
+}
