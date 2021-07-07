@@ -7,14 +7,38 @@
         justify-content: center;
         align-items: center;
         margin-bottom: 210px;
+        @media (max-width: 1400px){
+            margin-bottom: 60px;
+        }
+        @media (max-width: 540px){
+            margin-bottom: 60px;
+        }
         img{
             width: 280px;
             margin-right: 80px;
+            @media (max-width: 1400px){
+                width: 300px;
+                margin-right: 0px;
+                margin-bottom: 30px;
+            }
+            @media (max-width: 540px){
+                width: 200px;
+                margin-right: 0px;
+                margin-bottom: 30px;
+            }
         }
         p{
             font-size: 1.5em;
             text-align: justify;
             width: 50%;
+            @media (max-width: 1400px){
+                font-size: 1.3em;
+                width: 90%;
+            }
+            @media (max-width: 540px){
+                font-size: 1.3em;
+                width: 90%;
+            }
         }
         .bottinellifotos:hover{
             text-decoration: none;
@@ -26,6 +50,12 @@
         font-size: 3em;
         color: #000000;
         font-family: 'Anton', sans-serif;
+        @media (max-width: 1400px){
+            font-size: 2.5em;
+        }
+        @media (max-width: 540px){
+            font-size: 2.5em;
+        }
     }
 }
 

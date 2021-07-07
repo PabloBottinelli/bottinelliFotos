@@ -17,6 +17,9 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center; }
+    @media (max-width: 990px) {
+      .header .menu {
+        display: none; } }
     .header .menu .menu__a {
       margin-top: 30px;
       text-decoration: none;
@@ -33,16 +36,34 @@
       color: white; }
   .header .titulo {
     margin-top: 220px; }
+    @media (max-width: 720px) {
+      .header .titulo {
+        margin-top: 200px; } }
+    @media (max-width: 540px) {
+      .header .titulo {
+        margin-top: 100px; } }
     .header .titulo .titulo__h1 {
       font-size: 5em;
       font-family: 'Bebas Neue', cursive;
       color: #e8b21a;
       text-align: center; }
+      @media (max-width: 720px) {
+        .header .titulo .titulo__h1 {
+          font-size: 4em; } }
+      @media (max-width: 540px) {
+        .header .titulo .titulo__h1 {
+          font-size: 3em; } }
     .header .titulo .titulo__h2 {
       font-size: 3.5em;
       font-family: 'Bebas Neue', cursive;
       color: white;
       text-align: center; }
+      @media (max-width: 720px) {
+        .header .titulo .titulo__h2 {
+          font-size: 3em; } }
+      @media (max-width: 540px) {
+        .header .titulo .titulo__h2 {
+          font-size: 2em; } }
 
 #headerGeneral {
   background: #0f0c29;
@@ -55,6 +76,9 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center; }
+  @media (max-width: 990px) {
+    #headerGeneral {
+      display: none; } }
 
 header img {
   width: 70px;
@@ -69,6 +93,9 @@ header a {
   font-weight: 600;
   color: white;
   transition: all 500ms ease; }
+  @media (max-width: 540px) {
+    header a {
+      font-size: 1.2em; } }
 
 header a:hover {
   transform: scale(1.1);
@@ -78,12 +105,18 @@ header a:hover {
 .navbar {
   display: none;
   background-color: transparent !important; }
+  @media (max-width: 990px) {
+    .navbar {
+      display: flex; } }
   .navbar a {
     text-decoration: none;
     font-size: 1.7em;
     font-weight: 600;
     color: white;
     transition: all 500ms ease; }
+    @media (max-width: 540px) {
+      .navbar a {
+        font-size: 1.2em; } }
 
 .navbar-toggler {
   border: none; }
@@ -121,13 +154,37 @@ header a:hover {
     justify-content: center;
     align-items: center;
     margin-bottom: 210px; }
+    @media (max-width: 1400px) {
+      .sobreMi .sobreMi__contenido {
+        margin-bottom: 60px; } }
+    @media (max-width: 540px) {
+      .sobreMi .sobreMi__contenido {
+        margin-bottom: 60px; } }
     .sobreMi .sobreMi__contenido img {
       width: 280px;
       margin-right: 80px; }
+      @media (max-width: 1400px) {
+        .sobreMi .sobreMi__contenido img {
+          width: 300px;
+          margin-right: 0px;
+          margin-bottom: 30px; } }
+      @media (max-width: 540px) {
+        .sobreMi .sobreMi__contenido img {
+          width: 200px;
+          margin-right: 0px;
+          margin-bottom: 30px; } }
     .sobreMi .sobreMi__contenido p {
       font-size: 1.5em;
       text-align: justify;
       width: 50%; }
+      @media (max-width: 1400px) {
+        .sobreMi .sobreMi__contenido p {
+          font-size: 1.3em;
+          width: 90%; } }
+      @media (max-width: 540px) {
+        .sobreMi .sobreMi__contenido p {
+          font-size: 1.3em;
+          width: 90%; } }
     .sobreMi .sobreMi__contenido .bottinellifotos:hover {
       text-decoration: none; }
   .sobreMi .sobreMi__h2 {
@@ -136,6 +193,12 @@ header a:hover {
     font-size: 3em;
     color: #000000;
     font-family: 'Anton', sans-serif; }
+    @media (max-width: 1400px) {
+      .sobreMi .sobreMi__h2 {
+        font-size: 2.5em; } }
+    @media (max-width: 540px) {
+      .sobreMi .sobreMi__h2 {
+        font-size: 2.5em; } }
 
 .precios {
   margin-top: 40px;
@@ -174,6 +237,9 @@ header a:hover {
   margin: auto;
   width: 70%;
   margin-bottom: 60px; }
+  @media (max-width: 1400px) {
+    .galeria {
+      width: 100%; } }
   .galeria .galeria__h1 {
     text-align: center;
     margin-bottom: 30px;
@@ -189,6 +255,9 @@ header a:hover {
     .galeria .galeria__imagenes img {
       width: 350px;
       transition: all 400ms ease; }
+      @media (max-width: 1200px) {
+        .galeria .galeria__imagenes img {
+          width: 80%; } }
     .galeria .galeria__imagenes img:hover {
       transform: scale(1.4); }
 
@@ -200,6 +269,12 @@ header a:hover {
     margin-top: 30px;
     font-size: 3em;
     font-family: 'Anton', sans-serif; }
+    @media (max-width: 1200px) {
+      .contacto .contacto__h1 {
+        margin: auto;
+        width: 90%;
+        font-size: 2.5em;
+        margin-top: 30px; } }
   .contacto .contacto__form {
     margin: auto;
     margin-top: 70px;
@@ -207,6 +282,9 @@ header a:hover {
     font-size: 1em;
     text-align: center;
     margin-bottom: 130px; }
+    @media (max-width: 1200px) {
+      .contacto .contacto__form {
+        width: 80%; } }
     .contacto .contacto__form input[type="text"], .contacto .contacto__form input[type="email"], .contacto .contacto__form textarea {
       width: 100%;
       padding: 10px;
@@ -254,6 +332,9 @@ header a:hover {
   .footer .footer__h2 {
     padding-top: 20px;
     padding-bottom: 10px; }
+    @media (max-width: 540px) {
+      .footer .footer__h2 {
+        font-size: 1.5em; } }
   .footer .footer__a {
     padding: 10px;
     text-decoration: none;
