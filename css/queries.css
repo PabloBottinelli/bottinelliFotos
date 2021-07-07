@@ -1,89 +1,89 @@
 @media only screen and (max-width: 1400px){
     .sobreMi__h2{
-        font-size: 2.5em;
+        font-size: 2.5em !important;
     }
     .sobreMi__contenido img{
-        width: 300px;
-        margin-right: 0px;
-        margin-bottom: 30px;
+        width: 300px !important;
+        margin-right: 0px !important;
+        margin-bottom: 30px !important;
     }
     .sobreMi__contenido p{
-        font-size: 1.3em;
-        width: 90%;
+        font-size: 1.3em !important;
+        width: 90% !important;
     }
     .sobreMi__contenido{
-        margin-bottom: 60px;
+        margin-bottom: 60px !important;
     }
     .galeria{
-        width: 100%;
+        width: 100% !important;
     }
 }
 
 @media only screen and (max-width: 1200px){
     .galeria__imagenes img{
-        width: 80%;
+        width: 80% !important;
     }
     .contacto__form{
-        width: 80%;
+        width: 80% !important;
     }
     .contacto__h1{
-        margin: auto;
-        width: 90%;
-        font-size: 2.5em;
-        margin-top: 30px;
+        margin: auto !important;
+        width: 90% !important;
+        font-size: 2.5em !important;
+        margin-top: 30px !important;
     }
 }
 
 @media only screen and (max-width: 990px){
     .navbar{
-        display: flex;
+        display: flex !important;
     }
     .header .menu, #headerGeneral{
-        display: none;
+        display: none !important;
     }
 }
 
 @media only screen and (max-width: 720px){
     .header__titulo{
-        margin-top: 200px;
+        margin-top: 200px !important;
     }
     .titulo__h1{
-        font-size: 4em;
+        font-size: 4em !important;
     }
     .titulo__h2{
-        font-size: 3em;
+        font-size: 3em !important;
     }
 }
 @media only screen and (max-width: 540px){
     .header__titulo{
-        margin-top: 100px;
+        margin-top: 100px !important;
     }
     .titulo__h1{
-        font-size: 3em;
+        font-size: 3em !important;
     }
     .titulo__h2{
-        font-size: 2em;
+        font-size: 2em !important;
     }
     header a, .navbar a{
-        font-size: 1.2em;
+        font-size: 1.2em !important;
     }
     .sobreMi__h2{
-        font-size: 2.5em;
+        font-size: 2.5em !important;
     }
     .sobreMi__contenido img{
-        width: 200px;
-        margin-right: 0px;
-        margin-bottom: 30px;
+        width: 200px !important;
+        margin-right: 0px !important;
+        margin-bottom: 30px !important;
     }
     .sobreMi__contenido p{
-        font-size: 1.3em;
-        width: 90%;
+        font-size: 1.3em !important;
+        width: 90% !important;
     }
     .sobreMi__contenido{
-        margin-bottom: 60px;
+        margin-bottom: 60px !important;
     }
     .footer__h2{
-        font-size: 1.5em;
+        font-size: 1.5em !important;
     }
 }
 
