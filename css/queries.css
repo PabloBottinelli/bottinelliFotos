@@ -1,0 +1,91 @@
+@media only screen and (max-width: 1400px){
+    .sobreMi__h2{
+        font-size: 2.5em;
+    }
+    .sobreMi__contenido img{
+        width: 300px;
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+    .sobreMi__contenido p{
+        font-size: 1.3em;
+        width: 90%;
+    }
+    .sobreMi__contenido{
+        margin-bottom: 60px;
+    }
+    .galeria{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1200px){
+    .galeria__imagenes img{
+        width: 80%;
+    }
+    .contacto__form{
+        width: 80%;
+    }
+    .contacto__h1{
+        margin: auto;
+        width: 90%;
+        font-size: 2.5em;
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width: 990px){
+    .navbar{
+        display: flex;
+    }
+    .header .menu, #headerGeneral{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 720px){
+    .header__titulo{
+        margin-top: 200px;
+    }
+    .titulo__h1{
+        font-size: 4em;
+    }
+    .titulo__h2{
+        font-size: 3em;
+    }
+}
+@media only screen and (max-width: 540px){
+    .header__titulo{
+        margin-top: 100px;
+    }
+    .titulo__h1{
+        font-size: 3em;
+    }
+    .titulo__h2{
+        font-size: 2em;
+    }
+    header a, .navbar a{
+        font-size: 1.2em;
+    }
+    .sobreMi__h2{
+        font-size: 2.5em;
+    }
+    .sobreMi__contenido img{
+        width: 200px;
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+    .sobreMi__contenido p{
+        font-size: 1.3em;
+        width: 90%;
+    }
+    .sobreMi__contenido{
+        margin-bottom: 60px;
+    }
+    .footer__h2{
+        font-size: 1.5em;
+    }
+}
+
+
+

@@ -1,0 +1,33 @@
+.sobreMi{
+    margin: 30px;
+    .sobreMi__contenido{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 210px;
+        img{
+            width: 280px;
+            margin-right: 80px;
+        }
+        p{
+            font-size: 1.5em;
+            text-align: justify;
+            width: 50%;
+        }
+        .bottinellifotos:hover{
+            text-decoration: none;
+        }
+    }
+    .sobreMi__h2{
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 3em;
+        color: #000000;
+        font-family: 'Anton', sans-serif;
+    }
+}
+
+
+
