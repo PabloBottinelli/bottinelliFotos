@@ -1,0 +1,9 @@
+Faltas de ortografia
+Optimizar banner
+Hacer versiones mobile de las imagenes
+Agregar contenido
+Agregar logo o telefono al footer
+Ponerle mas color
+Usar section
+Form que se mueve, arreglar
+Que pase algo cuando tocas boton enviar form
