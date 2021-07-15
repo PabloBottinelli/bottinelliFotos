@@ -1,0 +1,35 @@
+.trabajo{
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 70px;
+}
+.contactame{
+    text-align: center;
+    iframe{
+        width: 50%;
+        @media (max-width: 1024px){
+            width: 80%;
+        }
+        @media (max-width: 550px){
+            height: 300px;
+        }
+    }
+    .contactame__a{
+        display: block;
+        margin: 0 auto;
+        width: 220px;
+        border: 3px solid #373755;
+        border-radius: 10px;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        font-size: 2em;
+        padding: 10px;
+        color: #000000;
+        font-family: 'Anton', sans-serif;
+        transition: all 500ms ease;
+    }
+    .contactame__a:hover{
+        text-decoration: none;
+        transform: scale(1.1);
+    }
+}

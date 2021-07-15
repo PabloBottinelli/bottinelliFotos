@@ -3,7 +3,35 @@
     padding: 0;
     font-family: 'Roboto', sans-serif;
 }
+body{
+    .trabajo__h2{
+        text-align: center;
+        margin-bottom: 40px;
+        font-size: 3em;
+        color: #000000;
+        font-family: 'Anton', sans-serif;
+        @media (max-width: 768px){
+            font-size: 2em;
+        }
+    }
+    .contactame__h2{
+        @extend .trabajo__h2;
+    }
+    .sobreMi__h2{
+        @extend .trabajo__h2;
+    }
+    .contacto__h1{
+        @extend .trabajo__h2;
+    }
+    .galeria__h1{
+        @extend .trabajo__h2;
+    }
+    .precios__h1{
+        @extend .trabajo__h2;
+    }
+}
 @import "header";
+@import "index";
 @import "sobreMi";
 @import "precios";
 @import "galeria";

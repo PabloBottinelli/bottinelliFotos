@@ -6,7 +6,7 @@
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        margin-bottom: 210px;
+        margin-bottom: 100px;
         @media (max-width: 1400px){
             margin-bottom: 60px;
         }
@@ -32,29 +32,17 @@
             text-align: justify;
             width: 50%;
             @media (max-width: 1400px){
-                font-size: 1.3em;
                 width: 90%;
             }
-            @media (max-width: 540px){
+            @media (max-width: 1024px){
+                font-size: 2em;
+            }
+            @media (max-width: 768px){
                 font-size: 1.3em;
-                width: 90%;
             }
         }
         .bottinellifotos:hover{
             text-decoration: none;
-        }
-    }
-    .sobreMi__h2{
-        text-align: center;
-        margin-bottom: 20px;
-        font-size: 3em;
-        color: #000000;
-        font-family: 'Anton', sans-serif;
-        @media (max-width: 1400px){
-            font-size: 2.5em;
-        }
-        @media (max-width: 540px){
-            font-size: 2.5em;
         }
     }
 }
